@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true
+  },
+  "styles": {
+    "color": {
+      "background": "#d5d6d7",
+      "text": "#333"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif",
+          "fontWeight": "600",
+          "lineHeight": "1.2"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "'Lucida Grande', Verdana, Arial, Sans-Serif",
+      "fontSize": "13px",
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "lineHeight": "1.55"
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    }
+  ]
+}
