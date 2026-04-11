@@ -6,6 +6,29 @@
     "layout": {
       "contentSize": "450px",
       "wideSize": "760px"
+    },
+    "color": {
+      "custom": true,
+      "text": true,
+      "background": true,
+      "link": true,
+      "palette": [
+        {
+          "slug": "thunay-black",
+          "color": "#333333",
+          "name": "Black"
+        },
+        {
+          "slug": "thunay-grey",
+          "color": "#777777",
+          "name": "Grey"
+        },
+        {
+          "slug": "thunay-blue",
+          "color": "#06c",
+          "name": "Blue"
+        }
+      ]
     }
   },
   "styles": {
