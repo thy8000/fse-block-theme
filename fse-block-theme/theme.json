@@ -9,6 +9,7 @@
     },
     "color": {
       "custom": true,
+      "defaultPalette": false,
       "text": true,
       "background": true,
       "link": true,
@@ -28,7 +29,35 @@
           "color": "#06c",
           "name": "Blue"
         }
+      ],
+      "defaultGradients": false,
+      "customGradient": false,
+      "gradients": [
+        {
+          "slug": "thunay-header-gradient",
+          "gradient": "linear-gradient(180deg, rgba(107,172,227,1) 0%, rgba(66,129,184,1) 100%)",
+          "name": "My awesome new header gradient!"
+        },
+        {
+          "slug": "thunay-footer-gradient",
+          "gradient": "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%)",
+          "name": "gradient-2"
+        }
       ]
+    },
+    "blocks": {
+      "core/post-date": {
+        "color": {
+          "background": false
+        }
+      },
+      "core/column": {
+        "color": {
+          "defaultGradients": false,
+          "customGradient": false,
+          "gradients": []
+        }
+      }
     }
   },
   "styles": {
