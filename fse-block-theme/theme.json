@@ -7,6 +7,9 @@
       "contentSize": "450px",
       "wideSize": "760px"
     },
+    "typography": {
+
+    },
     "color": {
       "custom": true,
       "defaultPalette": false,
@@ -43,6 +46,15 @@
           "gradient": "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%)",
           "name": "gradient-2"
         }
+      ],
+      "defaultDuotone": false,
+      "customDuotone": false,
+      "duotone": [
+        {
+          "slug": "thunay-duotone-1",
+          "colors": ["#fff", "#000"],
+          "name": "My awesome new header gradient!"
+        }
       ]
     },
     "blocks": {
@@ -56,6 +68,11 @@
           "defaultGradients": false,
           "customGradient": false,
           "gradients": []
+        }
+      },
+      "core/cover": {
+        "color": {
+          "duotone": []
         }
       }
     }
