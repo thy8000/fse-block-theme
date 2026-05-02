@@ -8,7 +8,26 @@
       "wideSize": "760px"
     },
     "typography": {
-
+      "fontSizes": [
+        {
+          "slug":"small",
+          "size": "10px",
+          "name": "Small"
+        },
+        {
+          "slug":"medium",
+          "size": "13px",
+          "name": "Medium"
+        }
+      ],
+      "customFontSize": false,
+      "fontFamilies": [
+        {
+          "slug": "arial",
+          "name": "",
+          "fontFamily": "'Lucida Grande', Verdana, Arial, Sans-Serif"
+        }
+      ]
     },
     "color": {
       "custom": true,
@@ -61,6 +80,9 @@
       "core/post-date": {
         "color": {
           "background": false
+        },
+        "typography": {
+          "fontSizes": []
         }
       },
       "core/column": {
